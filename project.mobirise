@@ -1,0 +1,1223 @@
+{
+  "settings": {
+    "name": "Zafar",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#27ae60",
+        "buttonsColor": "#bdc3c7",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#092c84",
+        "#2c4682",
+        "#203158"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.1",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/logo-zafar-bintang-128x138-3.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "gdpr": "",
+    "siteUrl": "http://www.zafar.com.my",
+    "uniqCompNum": 42,
+    "versionPublish": "4.8.1",
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "sitemapSwitcherAuto": "on",
+    "sitemapSwitcher": "on"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#27ae60!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features10-15\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#tabs2-j\">Machineries</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">FAQ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-zafar-bintang-white-119x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle, .btn": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "color": "#27ae60"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "11px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "buttonAlign": "right",
+            "showArrow": true,
+            "iconsColor": "#ffffff",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1275.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#8e44ad",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.7"
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "Percetakan Zafar<br>Sdn. Bhd.",
+          "text": "A Refection of Excellence in Every Print!<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-2"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1440.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#169581",
+            "overlayOpacity": "0.9"
+          },
+          "title": "welcome to zafar",
+          "caption": "<p>With over 20 years of experience in the printing industry, we provide printing services for the domestic and commercial markets. Our specialization includes printing of Holy Al-Quran, Yasin, Islamic books, Islamic materials.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-c"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".imgTitle": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "_params": {
+            "showTitles": false,
+            "ShowTexts": true,
+            "showImages": true,
+            "showImgTitles": true,
+            "showBgText": true,
+            "bgText": "",
+            "showButtons": false,
+            "imageSize": "37",
+            "paddingTop": "3",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2c4682",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": 0.6
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-zafar-bintang-425x458.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title1": "Bootstrap 4",
+          "title2": "About us",
+          "title3": "About Us",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Percetakan Zafar Sdn Bhd was established in 1977 through its founder Haji Mohamed Ziauddin. Currently it stands as one of the top commercial printers in the industry.<br><br>The founder started enterprising his business in the year 1977 as Zafar Enterprises in a small scale mainly catering the stationery needs. With the growth of economy and increasing demand, the Enterprise evolved to Percetakan Zafar Sdn Bhd (Zafar Printing Pvt Ltd).<br><br>Currently Percetakan Zafar is a modern printing plant specialised in the book printing, binding, and finishing. It is equipped with the most up to date technology to provide quality and affordable printing. It has invested in machineries which caters multiple sizes and with fast production speed and this has enabled it to compete locally and internationally.<br><br>Percetakan Zafar Sdn Bhd offers its service to print the Holy Al Quran, Islamic Books, Education textbooks, activity books, commercial products such as magazines and annual reports. The company is proud to be one of the few license holders in Malaysia to be able to print the Holy Al- Quran. It caters these services locally and internationally. The satisfaction from customers on quality and pricing has increased its market share in the international market.<br><br>Percetakan Zafar Sdn Bhd understands the sophistication of today’s printing needs and its plays the major role for the company to strive and improve to stay ahead in the industry.",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-white-outline\" href=\"https://mobirise.com\">Learn More &nbsp;&nbsp;<span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features10",
+          "_anchor": "features10-15"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": false,
+            "showButtons": false,
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "columns": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f1c40f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "newspaper",
+              "family": "iconsMind",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "smile",
+              "family": "iconsMind",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "add-cart",
+              "family": "iconsMind",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "Why Us?",
+          "title1": "Bootstrap 4",
+          "subtitle1": "High quality",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title2": "Responsive",
+          "subtitle2": "satisfaction Guaranteed",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "Affordable Price",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-b"
+        },
+        {
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showHeader": true,
+            "showHeaderText": true,
+            "showImages": true,
+            "showTitles": false,
+            "tabs": "3",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "Our Machineries",
+          "text": "We use the most reliable machines to serve you best.<br>",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title11": "BOOST YOUR RANKING",
+          "title12": "BOOST YOUR RANKING",
+          "title13": "BOOST YOUR RANKING",
+          "title21": "BOOTSTRAP BUILDER",
+          "title22": "BOOTSTRAP BUILDER",
+          "title23": "BOOTSTRAP BUILDER",
+          "title31": "BOOST YOUR RANKING",
+          "title32": "BOOST YOUR RANKING",
+          "title33": "BOOST YOUR RANKING",
+          "title51": "BOOTSTRAP BUILDER",
+          "title52": "BOOTSTRAP BUILDER",
+          "title53": "BOOTSTRAP BUILDER",
+          "title61": "TRENDY WEBSITE BLOCKS",
+          "title62": "TRENDY WEBSITE BLOCKS",
+          "title63": "TRENDY WEBSITE BLOCKS",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1tabs2-j\" aria-expanded=\"true\">Pre Press</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2tabs2-j\" aria-expanded=\"false\">Printing</a></li><li class=\"nav-item nav-item-last\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3tabs2-j\" aria-expanded=\"false\">BINDING</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4tabs2-j\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5tabs2-j\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6tabs2-j\">Beautiful</a></li>",
+          "media11": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "copy-machine",
+              "family": "icon54",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media12": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "attachment",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media13": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "paperclip",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media21": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "print",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media22": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media23": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media31": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "folder-binder",
+              "family": "iconsMind",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media32": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media33": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media41": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media42": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "attachment",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media43": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "paperclip",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media51": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media52": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media53": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media61": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media62": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media63": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "text11": "Color Proofing<br>Heidelberg CTP<br>Graphic Designing<br>Epson Stylus Digital Proofing",
+          "text12": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
+          "text13": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
+          "text21": "Heidelberg SM<br>Heidelberg SM<br>Heidelberg SM<br>Komori LP44 Perfector<br>Toshiba Web 4x4 (8 color)",
+          "text22": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
+          "text23": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
+          "text31": "Folding Machine<br>Saddle Stitch<br>Perfect Binding Machine",
+          "text32": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "text33": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "text41": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "text42": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "text43": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "text51": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "text52": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "text53": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "text61": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "text62": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "text63": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "tabs2",
+          "_anchor": "tabs2-j"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"#top\" target=\"_blank\">zafar.com.my</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-8"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "contact",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-text": {
+              "font-size": "16px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showSubtitle": false,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": "4",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#16a085",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "CONTACT US",
+          "subtitle": "For quotation and&nbsp;",
+          "text": "For enquiries and quotation",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
+          "form": {
+            "action": "info@zafar.com.my",
+            "alerts": {
+              "success": "Thanks for filling out form! We will be in touch."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-o"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#27ae60!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features10-15\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#tabs2-j\">Machineries</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">FAQ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-zafar-bintang-white-119x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"#top\" target=\"_blank\">zafar.com.my</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-q"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title DIV": {
+              "text-align": "right"
+            },
+            ".mbr-section-title": {
+              "text-align": "right",
+              "font-size": "16px"
+            }
+          },
+          "_params": {
+            "showCat1": true,
+            "showCat2": true,
+            "showCat3": false,
+            "showText": false,
+            "showButtons": false,
+            "googleMap": {
+              "address": "20, Jln 4/10B\nSpring Crst Industrial Park",
+              "placeId": "ChIJUQ_SCaFHzDERg2RrlWHVMYg",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "title1": "No.18 &amp; 20, Jln 4/10B<div>Spring Crst Industrial Park</div><div>Batu Caves, 68100</div><div>Selangor Darul Ehsan, Malaysia</div>",
+          "title2": "Phone: +603-61875725<div>Fax: +603-6187 5823</div>",
+          "title3": "sample@sample.us",
+          "cat1": "address",
+          "cat2": "phone",
+          "cat3": "email",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sunt, dolorum similique facere, vitae ea quod, velit est, maiores cupiditate repudiandae! Laboriosam, aliquid ea a magnam sunt eum corrupti totam rem alias dolor ipsum dignissimos.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://facebook.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook\"></span></a>  ",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-r"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "faq",
+        "order": 2
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "tabs": "4",
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Frequently Asked Questions",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-12-init\" data-core=\"\" href=\"#collapseOneaccordion1-12\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>How can I get Printing Quote and what specification do you require?</a>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-12-init\" data-core=\"\" href=\"#collapseTwoaccordion1-12\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">How do I submit my artwork?</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-12-init\" data-core=\"\" href=\"#collapseThreeaccordion1-12\" aria-expanded=\"true\" aria-controls=\"collapseThree\">How will my job be delivered back to me?</a>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-12-init\" data-core=\"\" href=\"#collapseFouraccordion1-12\" aria-expanded=\"true\" aria-controls=\"collapseFour\">How can I be assured of a high quality job without a press check?</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>You may contact <a href=\"page2.html#form2-o\">here</a> with the following details;<br><span style=\"font-size: 1rem;\">- Quantity to be printed<br></span><span style=\"font-size: 1rem;\">- Number of pages (for books only)<br>- Specify the colours for text printing and cover printing (for books only)<br></span><span style=\"font-size: 1rem;\">- Specify the trim size<br></span><span style=\"font-size: 1rem;\">- Specify the material</span></p>",
+          "text2": "<p>All artwork designs can be submitted in the following format;<br><span style=\"font-size: 1rem;\">- Adobe Illustrator (AI)<br></span><span style=\"font-size: 1rem;\">- Adobe Acrobat Document (PDF)<br></span><span style=\"font-size: 1rem;\">- In Design</span></p>",
+          "text3": "<p>If you are a customer out of the Peninsular Malaysia your job will be delivered to through sea or air shipment depending upon the value and urgency of your requirement and if you are a customer residing in the Peninsular Malaysia then your goods will be delivered by lorry.</p>",
+          "text4": "<p>We provide a complete set of digital proofs for all jobs for your confirmation and upon your confirmation then only our printing process will commence.</p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_anchor": "accordion1-12",
+          "_styles": {
+            "H1": {
+              "color": "#2ecc71"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "tabs": "3",
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Accordion FAQ",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion1-13-init\" data-core=\"\" href=\"#collapseOneaccordion1-13\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>How long does it take to process my order?</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-13-init\" data-core=\"\" href=\"#collapseTwoaccordion1-13\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Who should I contact about the status of my job?</a>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion1-13-init\" data-core=\"\" href=\"#collapseThreeaccordion1-13\" aria-expanded=\"true\" aria-controls=\"collapseThree\">What are the payment terms and how to make payment?</a>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>After confirmation of artwork, it requires 7 to 21 working days depending on your product specification.</p>",
+          "text2": "<p>Please contact us <a href=\"page2.html#form2-o\">here</a>.</p>",
+          "text3": "<p>The usual payment terms are 50% deposit upon confirmation and 50% balance upon completion otherwise stated. Payments could be made by cash, cheque or interbank fund transfer and upon making the payment please fax or email us the slip.<br><span style=\"font-size: 1rem;\"><br>The bank details are as follows;</span></p><p><b><span style=\"font-size: 1rem;\">Public Bank Berhad<br></span></b><span style=\"font-size: 1rem;\">Company name: <b>Percetakan Zafar Sdn Bhd</b><br></span><span style=\"font-size: 1rem;\">Account number: <b>313 3105 202</b></span></p>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_anchor": "accordion1-13",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Open Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#27ae60!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {
+              "name": "Open Sans",
+              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "css": "'Open Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features10-15\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#tabs2-j\">Machineries</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Contact</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">FAQ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-zafar-bintang-white-119x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-x"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018&nbsp;<a href=\"#top\" target=\"_blank\">zafar.com.my</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-y"
+        }
+      ]
+    }
+  }
+}
